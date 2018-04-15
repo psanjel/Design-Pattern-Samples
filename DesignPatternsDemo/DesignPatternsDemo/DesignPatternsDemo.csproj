@@ -43,12 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CreationalDesignPattern\FactoryMethod\ContractEmployee.cs" />
-    <Compile Include="CreationalDesignPattern\FactoryMethod\EmployeeType.cs" />
-    <Compile Include="CreationalDesignPattern\FactoryMethod\FullTimeEmployee.cs" />
-    <Compile Include="CreationalDesignPattern\FactoryMethod\ISalaryProcessing.cs" />
-    <Compile Include="CreationalDesignPattern\FactoryMethod\SalaryProcessingFactory.cs" />
-    <Compile Include="CreationalDesignPattern\FactoryMethod\TemporaryEmployee.cs" />
+    <Compile Include="CreationalDesignPattern\SimpleFactory\ContractEmployee.cs" />
+    <Compile Include="CreationalDesignPattern\SimpleFactory\EmployeeType.cs" />
+    <Compile Include="CreationalDesignPattern\SimpleFactory\FullTimeEmployee.cs" />
+    <Compile Include="CreationalDesignPattern\SimpleFactory\ISalaryProcessing.cs" />
+    <Compile Include="CreationalDesignPattern\SimpleFactory\SalaryProcessingFactory.cs" />
+    <Compile Include="CreationalDesignPattern\SimpleFactory\TemporaryEmployee.cs" />
     <Compile Include="CreationalDesignPattern\Singleton\SingletonDP.cs" />
     <Compile Include="CreationalDesignPattern\Singleton\SingletonEagerLoadingDP.cs" />
     <Compile Include="CreationalDesignPattern\Singleton\SingletonLazyLoadingDP.cs" />

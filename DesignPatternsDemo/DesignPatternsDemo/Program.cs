@@ -1,5 +1,5 @@
 ﻿using DesignPatternsDemo.CreationalDesignPattern.Singleton;
-using DesignPatternsDemo.CreationalDesignPattern.FactoryMethod;
+using DesignPatternsDemo.CreationalDesignPattern.SimpleFactory;
 using System;
 using System.Collections.Generic;
 using System.Linq;
