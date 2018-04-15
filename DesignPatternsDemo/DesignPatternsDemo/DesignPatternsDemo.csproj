@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreationalDesignPattern\FactoryMethod\AbstractProduct\IMobile.cs" />
+    <Compile Include="CreationalDesignPattern\FactoryMethod\Product\Huawei.cs" />
+    <Compile Include="CreationalDesignPattern\FactoryMethod\Product\IPhone.cs" />
     <Compile Include="CreationalDesignPattern\SimpleFactory\ContractEmployee.cs" />
     <Compile Include="CreationalDesignPattern\SimpleFactory\EmployeeType.cs" />
     <Compile Include="CreationalDesignPattern\SimpleFactory\FullTimeEmployee.cs" />
@@ -63,6 +66,9 @@
     <Folder Include="BehaviouralDesignPattern\" />
     <Folder Include="CreationalDesignPattern\AbstractFactory\" />
     <Folder Include="CreationalDesignPattern\Builder\" />
+    <Folder Include="CreationalDesignPattern\FactoryMethod\AbstractFactory\" />
+    <Folder Include="CreationalDesignPattern\FactoryMethod\Client\" />
+    <Folder Include="CreationalDesignPattern\FactoryMethod\ConcreteFactory\" />
     <Folder Include="CreationalDesignPattern\ObjectPool\" />
     <Folder Include="CreationalDesignPattern\Prototype\" />
     <Folder Include="StructuralDesignPattern\Adapter\" />
