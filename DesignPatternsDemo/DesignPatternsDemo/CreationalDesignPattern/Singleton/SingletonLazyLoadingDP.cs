@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatternsDemo.CreationalDesignPattern
+namespace DesignPatternsDemo.CreationalDesignPattern.Singleton
 {
     class SingletonLazyLoadingDP
     {

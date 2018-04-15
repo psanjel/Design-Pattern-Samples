@@ -49,10 +49,10 @@
     <Compile Include="CreationalDesignPattern\FactoryMethod\ISalaryProcessing.cs" />
     <Compile Include="CreationalDesignPattern\FactoryMethod\SalaryProcessingFactory.cs" />
     <Compile Include="CreationalDesignPattern\FactoryMethod\TemporaryEmployee.cs" />
-    <Compile Include="CreationalDesignPattern\SingletonDP.cs" />
-    <Compile Include="CreationalDesignPattern\SingletonEagerLoadingDP.cs" />
-    <Compile Include="CreationalDesignPattern\SingletonLazyLoadingDP.cs" />
-    <Compile Include="CreationalDesignPattern\SingletonMultithreadingDP.cs" />
+    <Compile Include="CreationalDesignPattern\Singleton\SingletonDP.cs" />
+    <Compile Include="CreationalDesignPattern\Singleton\SingletonEagerLoadingDP.cs" />
+    <Compile Include="CreationalDesignPattern\Singleton\SingletonLazyLoadingDP.cs" />
+    <Compile Include="CreationalDesignPattern\Singleton\SingletonMultithreadingDP.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -65,7 +65,6 @@
     <Folder Include="CreationalDesignPattern\Builder\" />
     <Folder Include="CreationalDesignPattern\ObjectPool\" />
     <Folder Include="CreationalDesignPattern\Prototype\" />
-    <Folder Include="CreationalDesignPattern\Singleton\" />
     <Folder Include="StructuralDesignPattern\Adapter\" />
     <Folder Include="StructuralDesignPattern\Bridge\" />
     <Folder Include="StructuralDesignPattern\Composite\" />

@@ -1,4 +1,4 @@
-﻿using DesignPatternsDemo.CreationalDesignPattern;
+﻿using DesignPatternsDemo.CreationalDesignPattern.Singleton;
 using DesignPatternsDemo.CreationalDesignPattern.FactoryMethod;
 using System;
 using System.Collections.Generic;
