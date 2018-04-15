@@ -8,7 +8,6 @@ namespace DesignPatternsDemo.CreationalDesignPattern.FactoryMethod
 {
     interface IMobileFactory
     {
-        decimal GetMinimumMobilePrice();
-        decimal GetMaximumMobilePrice();
+        IMobile GetMobile();        
     }
 }
