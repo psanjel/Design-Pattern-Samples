@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatternsDemo.CreationalDesignPattern.FactoryMethod
 {
-    interface IMobile
+    public interface IMobile
     {
         decimal MinimumMobilePrice();
         decimal MaximumMobilePrice();
