@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatternsDemo.CreationalDesignPattern.FactoryMethod
 {
-    interface IMobileFactory
+    public interface IMobileFactory
     {
         IMobile GetMobile();        
     }
