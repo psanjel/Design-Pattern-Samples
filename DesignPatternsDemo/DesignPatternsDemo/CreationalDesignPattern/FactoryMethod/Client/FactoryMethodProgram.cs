@@ -1,5 +1,4 @@
-﻿using DesignPatternsDemo.CreationalDesignPattern.FactoryMethod.Client;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,8 +11,7 @@ namespace DesignPatternsDemo
         static void Main(string[] args)
         {
 
-            PhonePriceChecker phonePriceChecker = new PhonePriceChecker();
-            phonePriceChecker.GetMobileRangePrice(Manufactures.IPhone);
+         
             Console.ReadLine();
         }
     }
