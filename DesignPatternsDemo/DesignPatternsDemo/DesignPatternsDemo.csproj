@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>DesignPatternsDemo.FactoryMethodProgram</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,9 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreationalDesignPattern\FactoryMethod\AbstractFactory\IMobileFactory.cs" />
     <Compile Include="CreationalDesignPattern\FactoryMethod\AbstractProduct\IMobile.cs" />
-    <Compile Include="CreationalDesignPattern\FactoryMethod\Product\Huawei.cs" />
-    <Compile Include="CreationalDesignPattern\FactoryMethod\Product\IPhone.cs" />
+    <Compile Include="CreationalDesignPattern\FactoryMethod\Client\Manufactures.cs" />
+    <Compile Include="CreationalDesignPattern\FactoryMethod\Client\FactoryMethodProgram.cs" />
+    <Compile Include="CreationalDesignPattern\FactoryMethod\Client\PhonePriceChecker.cs" />
+    <Compile Include="CreationalDesignPattern\FactoryMethod\ConcreteFactory\HuaweiFactory.cs" />
+    <Compile Include="CreationalDesignPattern\FactoryMethod\ConcreteFactory\IPhoneFactory.cs" />
+    <Compile Include="CreationalDesignPattern\FactoryMethod\ConcreteProduct\Huawei.cs" />
+    <Compile Include="CreationalDesignPattern\FactoryMethod\ConcreteProduct\IPhone.cs" />
     <Compile Include="CreationalDesignPattern\SimpleFactory\ContractEmployee.cs" />
     <Compile Include="CreationalDesignPattern\SimpleFactory\EmployeeType.cs" />
     <Compile Include="CreationalDesignPattern\SimpleFactory\FullTimeEmployee.cs" />
@@ -56,7 +65,6 @@
     <Compile Include="CreationalDesignPattern\Singleton\SingletonEagerLoadingDP.cs" />
     <Compile Include="CreationalDesignPattern\Singleton\SingletonLazyLoadingDP.cs" />
     <Compile Include="CreationalDesignPattern\Singleton\SingletonMultithreadingDP.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -66,9 +74,6 @@
     <Folder Include="BehaviouralDesignPattern\" />
     <Folder Include="CreationalDesignPattern\AbstractFactory\" />
     <Folder Include="CreationalDesignPattern\Builder\" />
-    <Folder Include="CreationalDesignPattern\FactoryMethod\AbstractFactory\" />
-    <Folder Include="CreationalDesignPattern\FactoryMethod\Client\" />
-    <Folder Include="CreationalDesignPattern\FactoryMethod\ConcreteFactory\" />
     <Folder Include="CreationalDesignPattern\ObjectPool\" />
     <Folder Include="CreationalDesignPattern\Prototype\" />
     <Folder Include="StructuralDesignPattern\Adapter\" />

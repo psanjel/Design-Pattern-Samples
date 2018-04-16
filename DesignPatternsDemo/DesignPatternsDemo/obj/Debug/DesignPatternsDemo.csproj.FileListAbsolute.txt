@@ -5,8 +5,8 @@ F:\Practice\Design Patterns\DesignPatternsDemo\DesignPatternsDemo\obj\Debug\Desi
 F:\Practice\Design Patterns\DesignPatternsDemo\DesignPatternsDemo\obj\Debug\DesignPatternsDemo.exe
 F:\Practice\Design Patterns\DesignPatternsDemo\DesignPatternsDemo\obj\Debug\DesignPatternsDemo.pdb
 F:\GitHub Projects\Design-Pattern-Samples\DesignPatternsDemo\DesignPatternsDemo\bin\Debug\DesignPatternsDemo.exe.config
+F:\GitHub Projects\Design-Pattern-Samples\DesignPatternsDemo\DesignPatternsDemo\bin\Debug\DesignPatternsDemo.exe
+F:\GitHub Projects\Design-Pattern-Samples\DesignPatternsDemo\DesignPatternsDemo\bin\Debug\DesignPatternsDemo.pdb
 F:\GitHub Projects\Design-Pattern-Samples\DesignPatternsDemo\DesignPatternsDemo\obj\Debug\DesignPatternsDemo.exe
 F:\GitHub Projects\Design-Pattern-Samples\DesignPatternsDemo\DesignPatternsDemo\obj\Debug\DesignPatternsDemo.pdb
 F:\GitHub Projects\Design-Pattern-Samples\DesignPatternsDemo\DesignPatternsDemo\obj\Debug\DesignPatternsDemo.csprojResolveAssemblyReference.cache
-F:\GitHub Projects\Design-Pattern-Samples\DesignPatternsDemo\DesignPatternsDemo\bin\Debug\DesignPatternsDemo.exe
-F:\GitHub Projects\Design-Pattern-Samples\DesignPatternsDemo\DesignPatternsDemo\bin\Debug\DesignPatternsDemo.pdb
