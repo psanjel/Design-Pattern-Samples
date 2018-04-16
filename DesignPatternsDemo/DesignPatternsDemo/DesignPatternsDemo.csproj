@@ -46,7 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreationalDesignPattern\FactoryMethod\AbstractFactory\CustomerFactory.cs" />
+    <Compile Include="CreationalDesignPattern\FactoryMethod\AbstractProduct\ICustomer.cs" />
     <Compile Include="CreationalDesignPattern\FactoryMethod\Client\FactoryMethodProgram.cs" />
+    <Compile Include="CreationalDesignPattern\FactoryMethod\ConcreteFactory\GoldCustomerFactory.cs" />
+    <Compile Include="CreationalDesignPattern\FactoryMethod\ConcreteFactory\SilverCustomerFactory.cs" />
+    <Compile Include="CreationalDesignPattern\FactoryMethod\ConcreteProduct\GoldCustomer.cs" />
+    <Compile Include="CreationalDesignPattern\FactoryMethod\ConcreteProduct\SilverCustomer.cs" />
     <Compile Include="CreationalDesignPattern\SimpleFactory\ContractEmployee.cs" />
     <Compile Include="CreationalDesignPattern\SimpleFactory\EmployeeType.cs" />
     <Compile Include="CreationalDesignPattern\SimpleFactory\FullTimeEmployee.cs" />
@@ -66,10 +72,6 @@
     <Folder Include="BehaviouralDesignPattern\" />
     <Folder Include="CreationalDesignPattern\AbstractFactory\" />
     <Folder Include="CreationalDesignPattern\Builder\" />
-    <Folder Include="CreationalDesignPattern\FactoryMethod\AbstractFactory\" />
-    <Folder Include="CreationalDesignPattern\FactoryMethod\AbstractProduct\" />
-    <Folder Include="CreationalDesignPattern\FactoryMethod\ConcreteFactory\" />
-    <Folder Include="CreationalDesignPattern\FactoryMethod\ConcreteProduct\" />
     <Folder Include="CreationalDesignPattern\ObjectPool\" />
     <Folder Include="CreationalDesignPattern\Prototype\" />
     <Folder Include="StructuralDesignPattern\Adapter\" />
