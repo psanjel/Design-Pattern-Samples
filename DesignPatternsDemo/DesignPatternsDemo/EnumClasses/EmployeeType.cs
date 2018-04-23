@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatternsDemo.CreationalDesignPattern.SimpleFactory
+namespace DesignPatternsDemo.CreationalDesignPattern.EnumClasses
 {
     public enum EmployeeType
     {

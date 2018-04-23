@@ -10,6 +10,7 @@ namespace DesignPatternsDemo.CreationalDesignPattern.FactoryMethod
     {
         public ICustomer GetCustomer()
         {
+            
             ICustomer objCustomer = this.CreateCustomer();
             objCustomer.AddPoints();
             objCustomer.AddDiscounts();

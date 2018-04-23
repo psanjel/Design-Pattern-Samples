@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DesignPatternsDemo.CreationalDesignPattern.EnumClasses;
 
 namespace DesignPatternsDemo
 {
@@ -35,8 +36,9 @@ namespace DesignPatternsDemo
 
             #region Factory Pattern
 
-            // For Full Time Employee
-            
+
+                #region Example_1
+            /*            
             SalaryProcessingFactory2 factory = new SalaryProcessingFactory2();
             ISalaryProcessing salaryProcessing = factory.RunSalaryProcessing(EmployeeType.FULLTIME);
             decimal fullTimeSalary = salaryProcessing.GetSalary();
@@ -52,8 +54,21 @@ namespace DesignPatternsDemo
             Console.WriteLine("Contract Employee's Salary : " + contractSalary.ToString());
             Console.WriteLine("------------------------------------------------------------");
             Console.WriteLine("Temporary Employee's Salary : " + tempSalary.ToString());
+            */
+            #endregion
 
-            // For Contract Employee
+            #region Example_2
+
+            EmployeeManagerFactory factory = new EmployeeManagerFactory();
+            IEmployeeManager empManager = factory.GetEmployeeManager(EmployeeType.CONTRACT);
+            decimal _bonus = empManager.GetBonus();
+            decimal _pay = empManager.GetPay();
+            string _employeeType = empManager.GetEmployeeType().ToString();
+
+            Console.WriteLine(_employeeType +" EMPLOYEE PAY : " + _pay.ToString() + "\n");
+            Console.WriteLine(_employeeType + " EMPLOYEE BONUS : " + _bonus.ToString() + "\n");
+
+                #endregion
             #endregion
 
             Console.ReadLine();

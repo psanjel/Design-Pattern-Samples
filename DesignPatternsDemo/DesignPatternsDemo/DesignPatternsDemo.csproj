@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DesignPatternsDemo.FactoryMethodProgram</StartupObject>
+    <StartupObject>DesignPatternsDemo.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,21 +48,25 @@
   <ItemGroup>
     <Compile Include="CreationalDesignPattern\FactoryMethod\AbstractFactory\CustomerFactory.cs" />
     <Compile Include="CreationalDesignPattern\FactoryMethod\AbstractProduct\ICustomer.cs" />
-    <Compile Include="CreationalDesignPattern\FactoryMethod\Client\FactoryMethodProgram.cs" />
     <Compile Include="CreationalDesignPattern\FactoryMethod\ConcreteFactory\GoldCustomerFactory.cs" />
     <Compile Include="CreationalDesignPattern\FactoryMethod\ConcreteFactory\SilverCustomerFactory.cs" />
     <Compile Include="CreationalDesignPattern\FactoryMethod\ConcreteProduct\GoldCustomer.cs" />
     <Compile Include="CreationalDesignPattern\FactoryMethod\ConcreteProduct\SilverCustomer.cs" />
-    <Compile Include="CreationalDesignPattern\SimpleFactory\ContractEmployee.cs" />
-    <Compile Include="CreationalDesignPattern\SimpleFactory\EmployeeType.cs" />
-    <Compile Include="CreationalDesignPattern\SimpleFactory\FullTimeEmployee.cs" />
-    <Compile Include="CreationalDesignPattern\SimpleFactory\ISalaryProcessing.cs" />
-    <Compile Include="CreationalDesignPattern\SimpleFactory\SalaryProcessingFactory.cs" />
-    <Compile Include="CreationalDesignPattern\SimpleFactory\TemporaryEmployee.cs" />
+    <Compile Include="CreationalDesignPattern\SimpleFactory\ContractEmployeeManager.cs" />
+    <Compile Include="CreationalDesignPattern\SimpleFactory\EmployeeManagerFactory.cs" />
+    <Compile Include="CreationalDesignPattern\SimpleFactory\Example_1\ContractEmployee.cs" />
+    <Compile Include="EnumClasses\EmployeeType.cs" />
+    <Compile Include="CreationalDesignPattern\SimpleFactory\Example_1\FullTimeEmployee.cs" />
+    <Compile Include="CreationalDesignPattern\SimpleFactory\Example_1\ISalaryProcessing.cs" />
+    <Compile Include="CreationalDesignPattern\SimpleFactory\Example_1\SalaryProcessingFactory.cs" />
+    <Compile Include="CreationalDesignPattern\SimpleFactory\Example_1\TemporaryEmployee.cs" />
+    <Compile Include="CreationalDesignPattern\SimpleFactory\IEmployeeManager.cs" />
+    <Compile Include="CreationalDesignPattern\SimpleFactory\PermanentEmployeeManager.cs" />
     <Compile Include="CreationalDesignPattern\Singleton\SingletonDP.cs" />
     <Compile Include="CreationalDesignPattern\Singleton\SingletonEagerLoadingDP.cs" />
     <Compile Include="CreationalDesignPattern\Singleton\SingletonLazyLoadingDP.cs" />
     <Compile Include="CreationalDesignPattern\Singleton\SingletonMultithreadingDP.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -72,6 +76,7 @@
     <Folder Include="BehaviouralDesignPattern\" />
     <Folder Include="CreationalDesignPattern\AbstractFactory\" />
     <Folder Include="CreationalDesignPattern\Builder\" />
+    <Folder Include="CreationalDesignPattern\FactoryMethod\Client\" />
     <Folder Include="CreationalDesignPattern\ObjectPool\" />
     <Folder Include="CreationalDesignPattern\Prototype\" />
     <Folder Include="StructuralDesignPattern\Adapter\" />
